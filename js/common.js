@@ -43,7 +43,9 @@ $(function() {
 		return false;
 	});
 // paralax
+if($(window).width() > 1024) {
 	$('.main-head').enllax();
+}
 //	$('.about').enllax();
 //	$('.portfolio').enllax();
 //	$('.contacts').enllax();
