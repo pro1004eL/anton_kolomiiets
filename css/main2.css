@@ -608,3 +608,17 @@ h2 {
 .ski_ul li {
     font-family: "OpenSansSemiBold";
 }
+.ski_ul li a {
+    font-family: "OpenSansSemiBold";
+    color: #141414;
+    text-decoration: underline;
+}
+
+.ski_ul li a:hover{
+    font-family: "OpenSansSemiBold";
+    color: red;
+    text-decoration: underline;
+}
+ul li {
+    list-style-type: square;
+}
