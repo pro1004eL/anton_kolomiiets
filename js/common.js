@@ -176,3 +176,21 @@ $(window).scroll(function(){
 		},
 		type: 'image' // this is default type
 	});
+
+	$('.qa_sert').magnificPopup({
+		items: [
+		  {
+			src: 'works/my_img/qa/certQA2.png',
+		  },
+		  {
+			src: 'works/my_img/qa/certificateQA.png',
+		  },
+		  {
+			src: 'works/my_img/qa/Galera_IT.jpg',
+		  },			 
+		],
+		gallery: {
+		  enabled: true
+		},
+		type: 'image' // this is default type
+	});
