@@ -623,3 +623,11 @@ h2 {
 ul li {
     list-style-type: square;
 }
+
+.ul-resume a {
+    color: #141414;
+}
+.ul-resume a:hover{
+    color: black;
+    text-decoration: underline;
+}
