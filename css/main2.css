@@ -517,7 +517,7 @@ h2 {
     content: "\e959"}
 [class^="icon-"], [class*=" icon-"] {
     font-family: 'IcoMoon-Free';
-    speak: none;
+    /*speak: none;*/
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
