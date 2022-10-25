@@ -631,3 +631,6 @@ ul li {
     color: black;
     text-decoration: underline;
 }
+.ul-resume li {
+    padding-top: 7px;
+}
