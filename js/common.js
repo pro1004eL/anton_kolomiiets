@@ -180,6 +180,9 @@ $(window).scroll(function(){
 	$('.qa_sert').magnificPopup({
 		items: [
 		  {
+			src: 'works/my_img/qa/85533457_en.png',
+		  },
+		  {
 			src: 'works/my_img/qa/certQA2.png',
 		  },
 		  {
@@ -187,7 +190,7 @@ $(window).scroll(function(){
 		  },
 		  {
 			src: 'works/my_img/qa/Galera_IT.jpg',
-		  },			 
+		  },
 		],
 		gallery: {
 		  enabled: true

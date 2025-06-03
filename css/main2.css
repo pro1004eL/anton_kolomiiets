@@ -351,13 +351,13 @@ h2 {
 .about-content ul {
     margin-top: 0;
 }
-.dounloads {
+.downloads {
     padding: 0 5px;
     transition: all .25s ease;
     color: #252525;
     font-family: "OpenSansSemiBold"
 }
-.dounloads:hover {
+.downloads:hover {
     text-decoration: underline;
     color: #252525;
 }
@@ -421,7 +421,6 @@ h2 {
     color: #fff;
     font-family: "OpenSansLight";
     font-size: 16px;
-    text-transform: uppercase;
     letter-spacing: 4px;
     -webkit-transform: translateY(80px);
     -ms-transform: translateY(80px);
@@ -606,16 +605,18 @@ h2 {
     text-align: center;
 }
 .ski_ul li {
-    font-family: "OpenSansSemiBold";
     margin-top: 5px;
 }
-.ski_ul li a {
+.ski_ul li i {
+    font-family: "OpenSansRegular";
+}
+.ski_ul a {
     font-family: "OpenSansSemiBold";
     color: #141414;
     text-decoration: underline;
 }
 
-.ski_ul li a:hover{
+.ski_ul a:hover{
     font-family: "OpenSansSemiBold";
     color: red;
     text-decoration: underline;
@@ -633,4 +634,8 @@ ul li {
 }
 .ul-resume li {
     padding-top: 7px;
+}
+
+.certificates a {
+    text-decoration: underline;
 }
